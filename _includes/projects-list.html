@@ -1,9 +1,9 @@
 ---
 
 ---
-
+{% assign repo_with_docs = ['ticket_man'] %}
 {% for repository in site.github.public_repositories %}
-  {% if repository.name contains '.github.io' %}
+  {% if repository.name contains '.github.io' or repo_with_docs contains repository.name %}
     <a class="dropdown-item" title="{{repository.name}}" href="{{repository.html_url}}">
       {{ repository.name }}
     </a>
