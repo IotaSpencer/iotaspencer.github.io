@@ -1,0 +1,11 @@
+---
+
+---
+
+{% for repository in site.github.public_repositories %}
+  {% if repository.name contains '.github.io' %}
+    <a class="dropdown-item" title="{{repository.name}}" href="{{repository.html_url}}">
+      {{ repository.name }}
+    </a>
+  {% endif %}
+{% endfor %}
