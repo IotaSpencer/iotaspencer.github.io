@@ -1,13 +1,12 @@
 # Jekyll configuration
-# now built using gogs!
 
 name: IotaSpencer
-author: IotaSpencer
+author: IotaSpencer / Ken Spencer
 description: <INSERT DESCRIPTION HERE>
 url: <INSERT URL HERE>
 
 # This is used so that the copyright date is prominent, you need to regenerate your site to use a new year
-year: <INSERT YEAR HERE>
+year: 2024
 
 skip_related_projects: true
 host: 0.0.0.0
@@ -35,7 +34,7 @@ social:
   stackoverflow:
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: UA-46280703-5
+#google_analytics_key: UA-46280703-5
 # Yandex metrica (https://metrica.yandex.com/) leave blank to ignore or put true to use
 yandex_metrica:
 
@@ -87,7 +86,6 @@ plugins:
   - jemoji
   - jekyll-mentions
   - jekyll-include-cache
-  - jekyll-asciinema
   - jekyll-paginate
 #defaults:
 #  -
