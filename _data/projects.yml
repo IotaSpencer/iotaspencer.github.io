@@ -1,32 +1,9 @@
-!!map {
-  ? !!str "gwss"
-  : !!seq [
-    !!map {
-      ? !!str "category"
-      : !!str "Scripted Suite",
-    },
-    !!map {
-      ? !!str "technology"
-      : !!seq [
-        !!map {
-          ? !!str "name"
-          : !!str "python",
-          ? !!str "type"
-          : !!str "language",
-        },
-        !!map {
-          ? !!str "name"
-          : !!str "python311",
-          ? !!str "type"
-          : !!str "language",
-        },
-        !!map {
-          ? !!str "name"
-          : !!str "python3",
-          ? !!str "type"
-          : !!str "language",
-        },
-      ],
-    },
-  ],
-}
+gwss:
+  category: Scripted Suite
+  technology:
+    - name: python
+      type: language
+    - name: python311
+      type: language
+    - name: python3
+      type: language
