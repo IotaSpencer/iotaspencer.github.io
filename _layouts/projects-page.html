@@ -14,8 +14,8 @@
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
                             <div class="card-group text-bg-dark">
-                            {% for project, project_info in site.data.projects %}
-                              {{ project }}
+                            {% for project in site.data.projects %}
+                              {{ project[0] }}
                                 <div class="text-bg-dark card">
                                     <div class="card-header">
                                         {{project}}
