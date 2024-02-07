@@ -7,3 +7,8 @@ gwss:
       type: language
     - name: python3
       type: language
+iotaspencer.me:
+  category: Website
+  technology:
+    - name: HTML5
+      type: language
