@@ -15,9 +15,9 @@
                         <div class="col text-bg-dark">
                             <div class="card-group text-bg-dark">
                             {% for project in site.data.projects %}
-                                <div class="text-bg-dark card">
+                                <div class="bg-dark card">
                                     <div class="card-header text-bg-dark">
-                                        {{project}}
+                                        {{project[0]}}
                                     </div>
                                 </div>
                             {% endfor %}
